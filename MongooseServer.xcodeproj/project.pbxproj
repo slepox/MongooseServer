@@ -7,10 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B37C5C61E19EC960078FCB0 /* ios-build-framework-script.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9B37C5BC1E19EC960078FCB0 /* ios-build-framework-script.sh */; };
+		9B37C5C71E19EC960078FCB0 /* mongoose.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B37C5BD1E19EC960078FCB0 /* mongoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B37C5C81E19EC960078FCB0 /* MongooseServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B37C5BE1E19EC960078FCB0 /* MongooseServer.m */; };
+		9B37C5CA1E19EC960078FCB0 /* Servlet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B37C5C01E19EC960078FCB0 /* Servlet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B37C5CB1E19EC960078FCB0 /* Servlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B37C5C11E19EC960078FCB0 /* Servlet.m */; };
+		9B37C5CC1E19EC960078FCB0 /* ServletRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B37C5C21E19EC960078FCB0 /* ServletRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B37C5CD1E19EC960078FCB0 /* ServletRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B37C5C31E19EC960078FCB0 /* ServletRequest.m */; };
+		9B37C5CE1E19EC960078FCB0 /* ServletResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B37C5C41E19EC960078FCB0 /* ServletResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B37C5CF1E19EC960078FCB0 /* ServletResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B37C5C51E19EC960078FCB0 /* ServletResponse.m */; };
+		9B37C5D11E19EDC30078FCB0 /* mongoose.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B37C5D01E19EDC30078FCB0 /* mongoose.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		9B76CCC81E19EB5700713B29 /* MongooseServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B76CCC61E19EB5700713B29 /* MongooseServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B37C5BC1E19EC960078FCB0 /* ios-build-framework-script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "ios-build-framework-script.sh"; sourceTree = "<group>"; };
+		9B37C5BD1E19EC960078FCB0 /* mongoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mongoose.h; sourceTree = "<group>"; };
+		9B37C5BE1E19EC960078FCB0 /* MongooseServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MongooseServer.m; sourceTree = "<group>"; };
+		9B37C5C01E19EC960078FCB0 /* Servlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Servlet.h; sourceTree = "<group>"; };
+		9B37C5C11E19EC960078FCB0 /* Servlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Servlet.m; sourceTree = "<group>"; };
+		9B37C5C21E19EC960078FCB0 /* ServletRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServletRequest.h; sourceTree = "<group>"; };
+		9B37C5C31E19EC960078FCB0 /* ServletRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServletRequest.m; sourceTree = "<group>"; };
+		9B37C5C41E19EC960078FCB0 /* ServletResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServletResponse.h; sourceTree = "<group>"; };
+		9B37C5C51E19EC960078FCB0 /* ServletResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServletResponse.m; sourceTree = "<group>"; };
+		9B37C5D01E19EDC30078FCB0 /* mongoose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mongoose.c; sourceTree = "<group>"; };
 		9B76CCC31E19EB5700713B29 /* MongooseServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MongooseServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B76CCC61E19EB5700713B29 /* MongooseServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MongooseServer.h; sourceTree = "<group>"; };
 		9B76CCC71E19EB5700713B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +66,17 @@
 		9B76CCC51E19EB5700713B29 /* MongooseServer */ = {
 			isa = PBXGroup;
 			children = (
+				9B37C5BC1E19EC960078FCB0 /* ios-build-framework-script.sh */,
+				9B37C5BD1E19EC960078FCB0 /* mongoose.h */,
+				9B37C5D01E19EDC30078FCB0 /* mongoose.c */,
 				9B76CCC61E19EB5700713B29 /* MongooseServer.h */,
+				9B37C5BE1E19EC960078FCB0 /* MongooseServer.m */,
+				9B37C5C01E19EC960078FCB0 /* Servlet.h */,
+				9B37C5C11E19EC960078FCB0 /* Servlet.m */,
+				9B37C5C21E19EC960078FCB0 /* ServletRequest.h */,
+				9B37C5C31E19EC960078FCB0 /* ServletRequest.m */,
+				9B37C5C41E19EC960078FCB0 /* ServletResponse.h */,
+				9B37C5C51E19EC960078FCB0 /* ServletResponse.m */,
 				9B76CCC71E19EB5700713B29 /* Info.plist */,
 			);
 			path = MongooseServer;
@@ -59,7 +89,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B37C5CC1E19EC960078FCB0 /* ServletRequest.h in Headers */,
+				9B37C5CA1E19EC960078FCB0 /* Servlet.h in Headers */,
 				9B76CCC81E19EB5700713B29 /* MongooseServer.h in Headers */,
+				9B37C5CE1E19EC960078FCB0 /* ServletResponse.h in Headers */,
+				9B37C5C71E19EC960078FCB0 /* mongoose.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +108,7 @@
 				9B76CCBF1E19EB5700713B29 /* Frameworks */,
 				9B76CCC01E19EB5700713B29 /* Headers */,
 				9B76CCC11E19EB5700713B29 /* Resources */,
+				9B37C5D21E19EDE90078FCB0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -121,16 +156,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B37C5C61E19EC960078FCB0 /* ios-build-framework-script.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B37C5D21E19EDE90078FCB0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/${PROJECT_DIR}/MongooseServer/ios-build-framework-script.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B76CCBE1E19EB5700713B29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B37C5CF1E19EC960078FCB0 /* ServletResponse.m in Sources */,
+				9B37C5C81E19EC960078FCB0 /* MongooseServer.m in Sources */,
+				9B37C5D11E19EDC30078FCB0 /* mongoose.c in Sources */,
+				9B37C5CB1E19EC960078FCB0 /* Servlet.m in Sources */,
+				9B37C5CD1E19EC960078FCB0 /* ServletRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +293,7 @@
 		9B76CCCC1E19EB5700713B29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -253,6 +311,7 @@
 		9B76CCCD1E19EB5700713B29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -286,6 +345,7 @@
 				9B76CCCD1E19EB5700713B29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
